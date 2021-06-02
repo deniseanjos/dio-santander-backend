@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /bootcamp
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+      url: postgres://naudjqflokzaff:b84dda659793b21ca385b9d00277b634703549adf94eb5f5a356e540b8fd455c@ec2-18-214-195-34.compute-1.amazonaws.com:5432/d2ahm0prpb3uhp
+      username: naudjqflokzaff
+      password: b84dda659793b21ca385b9d00277b634703549adf94eb5f5a356e540b8fd455c
+jpa:
+  show-sql: true
+  database-plataform: org.hibernate.dialect.PostgreSQLDialect
+  generate-ddl: true
+  hibernate:
+    ddl-auto: none
